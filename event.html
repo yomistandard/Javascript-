@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listner</title>
+    <link rel="stylesheet" href="event.css">
+    <script type="text/javascript" src="event.js"></script>
+</head>
+<body>
+    <header>
+        <div class="btn">
+            <button id="btn-click">Click me</button>
+        </div>
+    </header>
+    <script>
+        var btn= document.getElementById('btn-click');
+
+function onBtnClick(){
+   alert(" button clicked")
+}
+btn.addEventListener('click', onbtnClick)
+    </script>
+</body>
+</html>
